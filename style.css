@@ -2,12 +2,17 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
-     height: auto;
-     background-color: rgb(23, 21, 21);
+     height: 100vh;
+     background-color: #4B0082;
      text-align: center;
 }
 
 #quote{
-     font-size: 24px;
+     font-size: 34px;
      max-width: 500px;
+     color: aliceblue;
+     padding: 20px; 
+     border-radius: 15px; 
+     background: rgba(207, 36, 36, 0.094); 
+     border: 1px solid rgba(255, 255, 255, 0.3);
 }
