@@ -1,4 +1,10 @@
-let numOfDays = 75;
+const target = new Date('2025-03-30')
+
+function getRemDate(){
+     const today = new Date()
+     const rem = target - today
+     return Math.ceil(rem / (1000 * 60 * 60 * 24))
+}
 
 const quotes = [ 
      "Be consistent!", 
@@ -7,7 +13,7 @@ const quotes = [
      "Focus on small wins.",
      "Have realistic goals.",
      "Plan your day.",
-     "Remember you have " + (numOfDays-1) + " days left."
+     "Remember you have " + getRemDate() + " days left."
 ]
 
 function getQuote(){
