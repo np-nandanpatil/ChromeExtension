@@ -1,7 +1,13 @@
+let numOfDays = 75;
+
 const quotes = [ 
-     "Be consistent while coding", 
-     "Remember that you have 1% chance!", 
-     "The longer you take time to achieve your goals, the more you have financial instability", 
+     "Be consistent!", 
+     "You have 1% chance!", 
+     "The longer you take time to achieve your goals, the more you have financial instability",
+     "Focus on small wins.",
+     "Have realistic goals.",
+     "Plan your day.",
+     "Remember you have " + (numOfDays-1) + " days left."
 ]
 
 function getQuote(){
