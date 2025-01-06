@@ -12,7 +12,7 @@ function getRemTime(){
      const hours = 23 - timeNow.getHours()
      const minutes = 59 - timeNow.getMinutes()
      
-     return '${hours}h ${minutes}m left'
+     return `${hours}h ${minutes}m left`
 }
 const quotes = [ 
      "Be consistent!", 
