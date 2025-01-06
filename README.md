@@ -18,4 +18,4 @@ This is a Chrome Extension (or can be used in any browser - I have this in Edge 
 
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.txt) file for details.
