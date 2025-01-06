@@ -21,7 +21,7 @@ const quotes = [
      "Have realistic goals.",
      "Plan your day.",
      getRemDate() + " days left!",
-     getRemTime() + " left!"
+     getRemTime()
 ]
 
 function getQuote(){
