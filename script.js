@@ -17,11 +17,11 @@ function getRemTime(){
 const quotes = [ 
      "Be consistent!", 
      "You have 1% chance!", 
-     "Focus on small wins.",
+     "Focus on small wins.",     
+     getRemTime(),
      "Have realistic goals.",
      "Plan your day.",
-     getRemDate() + " days left!",
-     getRemTime()
+     getRemDate() + " days left!"
 ]
 
 function getQuote(){
